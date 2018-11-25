@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Featured
+    match={
+        Object {
+            "params": Object {
+              "name": "Hadijah",
+              "topic": "Javascript",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Hadijah
+           
+</h2>,
+        <p>
+          Introducing 
+          <strong>
+                    Hadijah
+          </strong>
+          , a teacher who loves teaching courses about 
+          <strong>
+                    Javascript
+          </strong>
+          !
+</p>,
+      ],
+      "className": "main-content",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Hadijah",
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Hadijah",
+          " ",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Introducing ",
+            <strong>
+              Hadijah
+</strong>,
+            ", a teacher who loves teaching courses about ",
+            <strong>
+              Javascript
+</strong>,
+            "!",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Introducing ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hadijah",
+            },
+            "ref": null,
+            "rendered": "Hadijah",
+            "type": "strong",
+          },
+          ", a teacher who loves teaching courses about ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Javascript",
+            },
+            "ref": null,
+            "rendered": "Javascript",
+            "type": "strong",
+          },
+          "!",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Hadijah
+             
+</h2>,
+          <p>
+            Introducing 
+            <strong>
+                        Hadijah
+            </strong>
+            , a teacher who loves teaching courses about 
+            <strong>
+                        Javascript
+            </strong>
+            !
+</p>,
+        ],
+        "className": "main-content",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Hadijah",
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Hadijah",
+            " ",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Introducing ",
+              <strong>
+                Hadijah
+</strong>,
+              ", a teacher who loves teaching courses about ",
+              <strong>
+                Javascript
+</strong>,
+              "!",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Introducing ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hadijah",
+              },
+              "ref": null,
+              "rendered": "Hadijah",
+              "type": "strong",
+            },
+            ", a teacher who loves teaching courses about ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Javascript",
+              },
+              "ref": null,
+              "rendered": "Javascript",
+              "type": "strong",
+            },
+            "!",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

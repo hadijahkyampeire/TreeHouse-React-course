@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Front End Course Directory
+</h2>,
+        <p>
+          This fun directory is a project for the 
+          <em>
+                    React Router Basics
+          </em>
+           course on Treehouse.
+</p>,
+        <p>
+          Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.
+</p>,
+        <p>
+          We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.
+</p>,
+        <hr />,
+        <h3>
+          Feature Teacher
+</h3>,
+        <form
+          onSubmit={[Function]}
+>
+          <input
+                    name="name"
+                    placeholder="name"
+                    type="text"
+          />
+          <input
+                    name="topic"
+                    placeholder="topic"
+                    type="text"
+          />
+          <button
+                    id="go"
+                    type="submit"
+          >
+                    Go!
+          </button>
+</form>,
+      ],
+      "className": "main-content home",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Front End Course Directory",
+        },
+        "ref": null,
+        "rendered": "Front End Course Directory",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "This fun directory is a project for the ",
+            <em>
+              React Router Basics
+</em>,
+            " course on Treehouse.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "This fun directory is a project for the ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "React Router Basics",
+            },
+            "ref": null,
+            "rendered": "React Router Basics",
+            "type": "em",
+          },
+          " course on Treehouse.",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.",
+        },
+        "ref": null,
+        "rendered": "Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.",
+        },
+        "ref": null,
+        "rendered": "We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Feature Teacher",
+        },
+        "ref": null,
+        "rendered": "Feature Teacher",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              name="name"
+              placeholder="name"
+              type="text"
+/>,
+            <input
+              name="topic"
+              placeholder="topic"
+              type="text"
+/>,
+            <button
+              id="go"
+              type="submit"
+>
+              Go!
+</button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "name",
+              "placeholder": "name",
+              "type": "text",
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "topic",
+              "placeholder": "topic",
+              "type": "text",
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Go!",
+              "id": "go",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Go!",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Front End Course Directory
+</h2>,
+          <p>
+            This fun directory is a project for the 
+            <em>
+                        React Router Basics
+            </em>
+             course on Treehouse.
+</p>,
+          <p>
+            Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.
+</p>,
+          <p>
+            We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.
+</p>,
+          <hr />,
+          <h3>
+            Feature Teacher
+</h3>,
+          <form
+            onSubmit={[Function]}
+>
+            <input
+                        name="name"
+                        placeholder="name"
+                        type="text"
+            />
+            <input
+                        name="topic"
+                        placeholder="topic"
+                        type="text"
+            />
+            <button
+                        id="go"
+                        type="submit"
+            >
+                        Go!
+            </button>
+</form>,
+        ],
+        "className": "main-content home",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Front End Course Directory",
+          },
+          "ref": null,
+          "rendered": "Front End Course Directory",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "This fun directory is a project for the ",
+              <em>
+                React Router Basics
+</em>,
+              " course on Treehouse.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "This fun directory is a project for the ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "React Router Basics",
+              },
+              "ref": null,
+              "rendered": "React Router Basics",
+              "type": "em",
+            },
+            " course on Treehouse.",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.",
+          },
+          "ref": null,
+          "rendered": "Learn front end web development and much more! This simple directory app offers a preview of our course library. Choose from many hours of content, from HTML to CSS to JavaScript. Learn to code and get the skills you need to launch a new career in front end web development.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.",
+          },
+          "ref": null,
+          "rendered": "We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Feature Teacher",
+          },
+          "ref": null,
+          "rendered": "Feature Teacher",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                name="name"
+                placeholder="name"
+                type="text"
+/>,
+              <input
+                name="topic"
+                placeholder="topic"
+                type="text"
+/>,
+              <button
+                id="go"
+                type="submit"
+>
+                Go!
+</button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "name",
+                "placeholder": "name",
+                "type": "text",
+              },
+              "ref": [Function],
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "topic",
+                "placeholder": "topic",
+                "type": "text",
+              },
+              "ref": [Function],
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Go!",
+                "id": "go",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Go!",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

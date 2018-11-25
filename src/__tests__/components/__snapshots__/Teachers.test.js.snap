@@ -1,0 +1,1207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Teachers />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Teachers
+</h2>,
+        <ul
+          className="group"
+>
+          <li
+                    className="teacher"
+          >
+                    <img
+                              alt="teacher"
+                              className="teacher-img"
+                              src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png"
+                    />
+                    <h3>
+                              Angie McAngular
+                    </h3>
+                    <p>
+                              Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+                    </p>
+          </li>
+          <li
+                    className="teacher"
+          >
+                    <img
+                              alt="teacher"
+                              className="teacher-img"
+                              src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png"
+                    />
+                    <h3>
+                              NodeStradamus
+                    </h3>
+                    <p>
+                              'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+                    </p>
+          </li>
+          <li
+                    className="teacher"
+          >
+                    <img
+                              alt="teacher"
+                              className="teacher-img"
+                              src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png"
+                    />
+                    <h3>
+                              Geo 'Lo' Cation
+                    </h3>
+                    <p>
+                              Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+                    </p>
+          </li>
+          <li
+                    className="teacher"
+          >
+                    <img
+                              alt="teacher"
+                              className="teacher-img"
+                              src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png"
+                    />
+                    <h3>
+                              Ecma Scriptnstuff
+                    </h3>
+                    <p>
+                              Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+                    </p>
+          </li>
+          <li
+                    className="teacher"
+          >
+                    <img
+                              alt="teacher"
+                              className="teacher-img"
+                              src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png"
+                    />
+                    <h3>
+                              Jay Query
+                    </h3>
+                    <p>
+                              Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+                    </p>
+          </li>
+          <li
+                    className="teacher"
+          >
+                    <img
+                              alt="teacher"
+                              className="teacher-img"
+                              src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png"
+                    />
+                    <h3>
+                              Json Babel
+                    </h3>
+                    <p>
+                              All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+                    </p>
+          </li>
+</ul>,
+      ],
+      "className": "main-content",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Teachers",
+        },
+        "ref": null,
+        "rendered": "Teachers",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="teacher"
+>
+              <img
+                            alt="teacher"
+                            className="teacher-img"
+                            src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png"
+              />
+              <h3>
+                            Angie McAngular
+              </h3>
+              <p>
+                            Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+              </p>
+</li>,
+            <li
+              className="teacher"
+>
+              <img
+                            alt="teacher"
+                            className="teacher-img"
+                            src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png"
+              />
+              <h3>
+                            NodeStradamus
+              </h3>
+              <p>
+                            'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+              </p>
+</li>,
+            <li
+              className="teacher"
+>
+              <img
+                            alt="teacher"
+                            className="teacher-img"
+                            src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png"
+              />
+              <h3>
+                            Geo 'Lo' Cation
+              </h3>
+              <p>
+                            Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+              </p>
+</li>,
+            <li
+              className="teacher"
+>
+              <img
+                            alt="teacher"
+                            className="teacher-img"
+                            src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png"
+              />
+              <h3>
+                            Ecma Scriptnstuff
+              </h3>
+              <p>
+                            Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+              </p>
+</li>,
+            <li
+              className="teacher"
+>
+              <img
+                            alt="teacher"
+                            className="teacher-img"
+                            src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png"
+              />
+              <h3>
+                            Jay Query
+              </h3>
+              <p>
+                            Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+              </p>
+</li>,
+            <li
+              className="teacher"
+>
+              <img
+                            alt="teacher"
+                            className="teacher-img"
+                            src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png"
+              />
+              <h3>
+                            Json Babel
+              </h3>
+              <p>
+                            All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+              </p>
+</li>,
+          ],
+          "className": "group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "teach-1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="teacher"
+                  className="teacher-img"
+                  src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png"
+/>,
+                <h3>
+                  Angie McAngular
+</h3>,
+                <p>
+                  Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+</p>,
+              ],
+              "className": "teacher",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "teacher",
+                  "className": "teacher-img",
+                  "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Angie McAngular",
+                },
+                "ref": null,
+                "rendered": "Angie McAngular",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!",
+                },
+                "ref": null,
+                "rendered": "Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "teach-2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="teacher"
+                  className="teacher-img"
+                  src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png"
+/>,
+                <h3>
+                  NodeStradamus
+</h3>,
+                <p>
+                  'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+</p>,
+              ],
+              "className": "teacher",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "teacher",
+                  "className": "teacher-img",
+                  "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NodeStradamus",
+                },
+                "ref": null,
+                "rendered": "NodeStradamus",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.",
+                },
+                "ref": null,
+                "rendered": "'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "teach-3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="teacher"
+                  className="teacher-img"
+                  src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png"
+/>,
+                <h3>
+                  Geo 'Lo' Cation
+</h3>,
+                <p>
+                  Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+</p>,
+              ],
+              "className": "teacher",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "teacher",
+                  "className": "teacher-img",
+                  "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Geo 'Lo' Cation",
+                },
+                "ref": null,
+                "rendered": "Geo 'Lo' Cation",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.",
+                },
+                "ref": null,
+                "rendered": "Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "teach-4",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="teacher"
+                  className="teacher-img"
+                  src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png"
+/>,
+                <h3>
+                  Ecma Scriptnstuff
+</h3>,
+                <p>
+                  Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+</p>,
+              ],
+              "className": "teacher",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "teacher",
+                  "className": "teacher-img",
+                  "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ecma Scriptnstuff",
+                },
+                "ref": null,
+                "rendered": "Ecma Scriptnstuff",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.",
+                },
+                "ref": null,
+                "rendered": "Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "teach-5",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="teacher"
+                  className="teacher-img"
+                  src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png"
+/>,
+                <h3>
+                  Jay Query
+</h3>,
+                <p>
+                  Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+</p>,
+              ],
+              "className": "teacher",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "teacher",
+                  "className": "teacher-img",
+                  "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jay Query",
+                },
+                "ref": null,
+                "rendered": "Jay Query",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.",
+                },
+                "ref": null,
+                "rendered": "Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "teach-6",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="teacher"
+                  className="teacher-img"
+                  src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png"
+/>,
+                <h3>
+                  Json Babel
+</h3>,
+                <p>
+                  All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+</p>,
+              ],
+              "className": "teacher",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "teacher",
+                  "className": "teacher-img",
+                  "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Json Babel",
+                },
+                "ref": null,
+                "rendered": "Json Babel",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.",
+                },
+                "ref": null,
+                "rendered": "All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Teachers
+</h2>,
+          <ul
+            className="group"
+>
+            <li
+                        className="teacher"
+            >
+                        <img
+                                    alt="teacher"
+                                    className="teacher-img"
+                                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png"
+                        />
+                        <h3>
+                                    Angie McAngular
+                        </h3>
+                        <p>
+                                    Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+                        </p>
+            </li>
+            <li
+                        className="teacher"
+            >
+                        <img
+                                    alt="teacher"
+                                    className="teacher-img"
+                                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png"
+                        />
+                        <h3>
+                                    NodeStradamus
+                        </h3>
+                        <p>
+                                    'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+                        </p>
+            </li>
+            <li
+                        className="teacher"
+            >
+                        <img
+                                    alt="teacher"
+                                    className="teacher-img"
+                                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png"
+                        />
+                        <h3>
+                                    Geo 'Lo' Cation
+                        </h3>
+                        <p>
+                                    Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+                        </p>
+            </li>
+            <li
+                        className="teacher"
+            >
+                        <img
+                                    alt="teacher"
+                                    className="teacher-img"
+                                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png"
+                        />
+                        <h3>
+                                    Ecma Scriptnstuff
+                        </h3>
+                        <p>
+                                    Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+                        </p>
+            </li>
+            <li
+                        className="teacher"
+            >
+                        <img
+                                    alt="teacher"
+                                    className="teacher-img"
+                                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png"
+                        />
+                        <h3>
+                                    Jay Query
+                        </h3>
+                        <p>
+                                    Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+                        </p>
+            </li>
+            <li
+                        className="teacher"
+            >
+                        <img
+                                    alt="teacher"
+                                    className="teacher-img"
+                                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png"
+                        />
+                        <h3>
+                                    Json Babel
+                        </h3>
+                        <p>
+                                    All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+                        </p>
+            </li>
+</ul>,
+        ],
+        "className": "main-content",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Teachers",
+          },
+          "ref": null,
+          "rendered": "Teachers",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="teacher"
+>
+                <img
+                                alt="teacher"
+                                className="teacher-img"
+                                src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png"
+                />
+                <h3>
+                                Angie McAngular
+                </h3>
+                <p>
+                                Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+                </p>
+</li>,
+              <li
+                className="teacher"
+>
+                <img
+                                alt="teacher"
+                                className="teacher-img"
+                                src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png"
+                />
+                <h3>
+                                NodeStradamus
+                </h3>
+                <p>
+                                'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+                </p>
+</li>,
+              <li
+                className="teacher"
+>
+                <img
+                                alt="teacher"
+                                className="teacher-img"
+                                src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png"
+                />
+                <h3>
+                                Geo 'Lo' Cation
+                </h3>
+                <p>
+                                Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+                </p>
+</li>,
+              <li
+                className="teacher"
+>
+                <img
+                                alt="teacher"
+                                className="teacher-img"
+                                src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png"
+                />
+                <h3>
+                                Ecma Scriptnstuff
+                </h3>
+                <p>
+                                Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+                </p>
+</li>,
+              <li
+                className="teacher"
+>
+                <img
+                                alt="teacher"
+                                className="teacher-img"
+                                src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png"
+                />
+                <h3>
+                                Jay Query
+                </h3>
+                <p>
+                                Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+                </p>
+</li>,
+              <li
+                className="teacher"
+>
+                <img
+                                alt="teacher"
+                                className="teacher-img"
+                                src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png"
+                />
+                <h3>
+                                Json Babel
+                </h3>
+                <p>
+                                All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+                </p>
+</li>,
+            ],
+            "className": "group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "teach-1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="teacher"
+                    className="teacher-img"
+                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png"
+/>,
+                  <h3>
+                    Angie McAngular
+</h3>,
+                  <p>
+                    Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+</p>,
+                ],
+                "className": "teacher",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "teacher",
+                    "className": "teacher-img",
+                    "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/angie.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Angie McAngular",
+                  },
+                  "ref": null,
+                  "rendered": "Angie McAngular",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!",
+                  },
+                  "ref": null,
+                  "rendered": "Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "teach-2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="teacher"
+                    className="teacher-img"
+                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png"
+/>,
+                  <h3>
+                    NodeStradamus
+</h3>,
+                  <p>
+                    'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+</p>,
+                ],
+                "className": "teacher",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "teacher",
+                    "className": "teacher-img",
+                    "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/nodestradamus.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NodeStradamus",
+                  },
+                  "ref": null,
+                  "rendered": "NodeStradamus",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.",
+                  },
+                  "ref": null,
+                  "rendered": "'NodeStra' is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "teach-3",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="teacher"
+                    className="teacher-img"
+                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png"
+/>,
+                  <h3>
+                    Geo 'Lo' Cation
+</h3>,
+                  <p>
+                    Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+</p>,
+                ],
+                "className": "teacher",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "teacher",
+                    "className": "teacher-img",
+                    "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/geo.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Geo 'Lo' Cation",
+                  },
+                  "ref": null,
+                  "rendered": "Geo 'Lo' Cation",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.",
+                  },
+                  "ref": null,
+                  "rendered": "Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "teach-4",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="teacher"
+                    className="teacher-img"
+                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png"
+/>,
+                  <h3>
+                    Ecma Scriptnstuff
+</h3>,
+                  <p>
+                    Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+</p>,
+                ],
+                "className": "teacher",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "teacher",
+                    "className": "teacher-img",
+                    "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/ecma.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ecma Scriptnstuff",
+                  },
+                  "ref": null,
+                  "rendered": "Ecma Scriptnstuff",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.",
+                  },
+                  "ref": null,
+                  "rendered": "Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "teach-5",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="teacher"
+                    className="teacher-img"
+                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png"
+/>,
+                  <h3>
+                    Jay Query
+</h3>,
+                  <p>
+                    Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+</p>,
+                ],
+                "className": "teacher",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "teacher",
+                    "className": "teacher-img",
+                    "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/jay.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Jay Query",
+                  },
+                  "ref": null,
+                  "rendered": "Jay Query",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.",
+                  },
+                  "ref": null,
+                  "rendered": "Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "teach-6",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="teacher"
+                    className="teacher-img"
+                    src="http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png"
+/>,
+                  <h3>
+                    Json Babel
+</h3>,
+                  <p>
+                    All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+</p>,
+                ],
+                "className": "teacher",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "teacher",
+                    "className": "teacher-img",
+                    "src": "http://treehouse-code-samples.s3.amazonaws.com/bootstrap-4/img/json.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Json Babel",
+                  },
+                  "ref": null,
+                  "rendered": "Json Babel",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.",
+                  },
+                  "ref": null,
+                  "rendered": "All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

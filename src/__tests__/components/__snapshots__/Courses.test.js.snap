@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Courses
+    match={
+        Object {
+            "path": "/courses/",
+            "url": "/courses/",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="course-header group"
+>
+          <h2>
+                    Courses
+          </h2>
+          <ul
+                    className="course-nav"
+          >
+                    <li>
+                              <a
+                                        href="/courses//html"
+                              >
+                                        HTML
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/courses//css"
+                              >
+                                        CSS
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/courses//javascript"
+                              >
+                                        JavaScript
+                              </a>
+                    </li>
+          </ul>
+</div>,
+        <BrowserRouter>
+          <div>
+                    <Route
+                              exact={true}
+                              path="/courses/"
+                              render={[Function]}
+                    />
+                    <Route
+                              path="/courses//html"
+                              render={[Function]}
+                    />
+                    <Route
+                              path="/courses//css"
+                              render={[Function]}
+                    />
+                    <Route
+                              path="/courses//javascript"
+                              render={[Function]}
+                    />
+          </div>
+</BrowserRouter>,
+      ],
+      "className": "main-content courses",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Courses
+</h2>,
+            <ul
+              className="course-nav"
+>
+              <li>
+                            <a
+                                          href="/courses//html"
+                            >
+                                          HTML
+                            </a>
+              </li>
+              <li>
+                            <a
+                                          href="/courses//css"
+                            >
+                                          CSS
+                            </a>
+              </li>
+              <li>
+                            <a
+                                          href="/courses//javascript"
+                            >
+                                          JavaScript
+                            </a>
+              </li>
+</ul>,
+          ],
+          "className": "course-header group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Courses",
+            },
+            "ref": null,
+            "rendered": "Courses",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                  <a
+                                    href="/courses//html"
+                  >
+                                    HTML
+                  </a>
+</li>,
+                <li>
+                  <a
+                                    href="/courses//css"
+                  >
+                                    CSS
+                  </a>
+</li>,
+                <li>
+                  <a
+                                    href="/courses//javascript"
+                  >
+                                    JavaScript
+                  </a>
+</li>,
+              ],
+              "className": "course-nav",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="/courses//html"
+>
+                    HTML
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HTML",
+                    "href": "/courses//html",
+                  },
+                  "ref": null,
+                  "rendered": "HTML",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="/courses//css"
+>
+                    CSS
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CSS",
+                    "href": "/courses//css",
+                  },
+                  "ref": null,
+                  "rendered": "CSS",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="/courses//javascript"
+>
+                    JavaScript
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JavaScript",
+                    "href": "/courses//javascript",
+                  },
+                  "ref": null,
+                  "rendered": "JavaScript",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div>
+            <Route
+                        exact={true}
+                        path="/courses/"
+                        render={[Function]}
+            />
+            <Route
+                        path="/courses//html"
+                        render={[Function]}
+            />
+            <Route
+                        path="/courses//css"
+                        render={[Function]}
+            />
+            <Route
+                        path="/courses//javascript"
+                        render={[Function]}
+            />
+</div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Route
+                exact={true}
+                path="/courses/"
+                render={[Function]}
+/>,
+              <Route
+                path="/courses//html"
+                render={[Function]}
+/>,
+              <Route
+                path="/courses//css"
+                render={[Function]}
+/>,
+              <Route
+                path="/courses//javascript"
+                render={[Function]}
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "exact": true,
+                "path": "/courses/",
+                "render": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "path": "/courses//html",
+                "render": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "path": "/courses//css",
+                "render": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "path": "/courses//javascript",
+                "render": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="course-header group"
+>
+            <h2>
+                        Courses
+            </h2>
+            <ul
+                        className="course-nav"
+            >
+                        <li>
+                                    <a
+                                                href="/courses//html"
+                                    >
+                                                HTML
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/courses//css"
+                                    >
+                                                CSS
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/courses//javascript"
+                                    >
+                                                JavaScript
+                                    </a>
+                        </li>
+            </ul>
+</div>,
+          <BrowserRouter>
+            <div>
+                        <Route
+                                    exact={true}
+                                    path="/courses/"
+                                    render={[Function]}
+                        />
+                        <Route
+                                    path="/courses//html"
+                                    render={[Function]}
+                        />
+                        <Route
+                                    path="/courses//css"
+                                    render={[Function]}
+                        />
+                        <Route
+                                    path="/courses//javascript"
+                                    render={[Function]}
+                        />
+            </div>
+</BrowserRouter>,
+        ],
+        "className": "main-content courses",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Courses
+</h2>,
+              <ul
+                className="course-nav"
+>
+                <li>
+                                <a
+                                                href="/courses//html"
+                                >
+                                                HTML
+                                </a>
+                </li>
+                <li>
+                                <a
+                                                href="/courses//css"
+                                >
+                                                CSS
+                                </a>
+                </li>
+                <li>
+                                <a
+                                                href="/courses//javascript"
+                                >
+                                                JavaScript
+                                </a>
+                </li>
+</ul>,
+            ],
+            "className": "course-header group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Courses",
+              },
+              "ref": null,
+              "rendered": "Courses",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    <a
+                                        href="/courses//html"
+                    >
+                                        HTML
+                    </a>
+</li>,
+                  <li>
+                    <a
+                                        href="/courses//css"
+                    >
+                                        CSS
+                    </a>
+</li>,
+                  <li>
+                    <a
+                                        href="/courses//javascript"
+                    >
+                                        JavaScript
+                    </a>
+</li>,
+                ],
+                "className": "course-nav",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="/courses//html"
+>
+                      HTML
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "HTML",
+                      "href": "/courses//html",
+                    },
+                    "ref": null,
+                    "rendered": "HTML",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="/courses//css"
+>
+                      CSS
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "CSS",
+                      "href": "/courses//css",
+                    },
+                    "ref": null,
+                    "rendered": "CSS",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="/courses//javascript"
+>
+                      JavaScript
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "JavaScript",
+                      "href": "/courses//javascript",
+                    },
+                    "ref": null,
+                    "rendered": "JavaScript",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div>
+              <Route
+                            exact={true}
+                            path="/courses/"
+                            render={[Function]}
+              />
+              <Route
+                            path="/courses//html"
+                            render={[Function]}
+              />
+              <Route
+                            path="/courses//css"
+                            render={[Function]}
+              />
+              <Route
+                            path="/courses//javascript"
+                            render={[Function]}
+              />
+</div>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Route
+                  exact={true}
+                  path="/courses/"
+                  render={[Function]}
+/>,
+                <Route
+                  path="/courses//html"
+                  render={[Function]}
+/>,
+                <Route
+                  path="/courses//css"
+                  render={[Function]}
+/>,
+                <Route
+                  path="/courses//javascript"
+                  render={[Function]}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "exact": true,
+                  "path": "/courses/",
+                  "render": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "path": "/courses//html",
+                  "render": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "path": "/courses//css",
+                  "render": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "path": "/courses//javascript",
+                  "render": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

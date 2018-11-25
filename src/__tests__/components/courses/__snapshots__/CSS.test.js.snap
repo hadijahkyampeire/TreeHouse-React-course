@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CSS />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul>
+        <Course
+                desc="CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites."
+                img="https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png"
+                title="CSS Basics"
+        />
+        <Course
+                desc="In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements."
+                img="https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png"
+                title="CSS Selectors"
+        />
+        <Course
+                desc="Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design."
+                img="https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png"
+                title="Responsive Layouts"
+        />
+        <Course
+                desc="Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!"
+                img="https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png"
+                title="CSS Flexbox Layout"
+        />
+        <Course
+                desc="CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms."
+                img="https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png"
+                title="CSS Transitions and Transforms"
+        />
+        <Course
+                desc="Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time."
+                img="https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png"
+                title="Bootstrap 4 Basics"
+        />
+</ul>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Course
+            desc="CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites."
+            img="https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png"
+            title="CSS Basics"
+/>,
+          <Course
+            desc="In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements."
+            img="https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png"
+            title="CSS Selectors"
+/>,
+          <Course
+            desc="Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design."
+            img="https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png"
+            title="Responsive Layouts"
+/>,
+          <Course
+            desc="Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!"
+            img="https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png"
+            title="CSS Flexbox Layout"
+/>,
+          <Course
+            desc="CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms."
+            img="https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png"
+            title="CSS Transitions and Transforms"
+/>,
+          <Course
+            desc="Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time."
+            img="https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png"
+            title="Bootstrap 4 Basics"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "css-1",
+          "nodeType": "function",
+          "props": Object {
+            "desc": "CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites.",
+            "img": "https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png",
+            "title": "CSS Basics",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "css-2",
+          "nodeType": "function",
+          "props": Object {
+            "desc": "In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements.",
+            "img": "https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png",
+            "title": "CSS Selectors",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "css-3",
+          "nodeType": "function",
+          "props": Object {
+            "desc": "Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design.",
+            "img": "https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png",
+            "title": "Responsive Layouts",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "css-4",
+          "nodeType": "function",
+          "props": Object {
+            "desc": "Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!",
+            "img": "https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png",
+            "title": "CSS Flexbox Layout",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "css-5",
+          "nodeType": "function",
+          "props": Object {
+            "desc": "CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms.",
+            "img": "https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png",
+            "title": "CSS Transitions and Transforms",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "css-6",
+          "nodeType": "function",
+          "props": Object {
+            "desc": "Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time.",
+            "img": "https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png",
+            "title": "Bootstrap 4 Basics",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul>
+          <Course
+                    desc="CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites."
+                    img="https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png"
+                    title="CSS Basics"
+          />
+          <Course
+                    desc="In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements."
+                    img="https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png"
+                    title="CSS Selectors"
+          />
+          <Course
+                    desc="Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design."
+                    img="https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png"
+                    title="Responsive Layouts"
+          />
+          <Course
+                    desc="Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!"
+                    img="https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png"
+                    title="CSS Flexbox Layout"
+          />
+          <Course
+                    desc="CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms."
+                    img="https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png"
+                    title="CSS Transitions and Transforms"
+          />
+          <Course
+                    desc="Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time."
+                    img="https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png"
+                    title="Bootstrap 4 Basics"
+          />
+</ul>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Course
+              desc="CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites."
+              img="https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png"
+              title="CSS Basics"
+/>,
+            <Course
+              desc="In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements."
+              img="https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png"
+              title="CSS Selectors"
+/>,
+            <Course
+              desc="Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design."
+              img="https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png"
+              title="Responsive Layouts"
+/>,
+            <Course
+              desc="Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!"
+              img="https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png"
+              title="CSS Flexbox Layout"
+/>,
+            <Course
+              desc="CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms."
+              img="https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png"
+              title="CSS Transitions and Transforms"
+/>,
+            <Course
+              desc="Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time."
+              img="https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png"
+              title="Bootstrap 4 Basics"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "css-1",
+            "nodeType": "function",
+            "props": Object {
+              "desc": "CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites.",
+              "img": "https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png",
+              "title": "CSS Basics",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "css-2",
+            "nodeType": "function",
+            "props": Object {
+              "desc": "In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements.",
+              "img": "https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png",
+              "title": "CSS Selectors",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "css-3",
+            "nodeType": "function",
+            "props": Object {
+              "desc": "Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design.",
+              "img": "https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png",
+              "title": "Responsive Layouts",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "css-4",
+            "nodeType": "function",
+            "props": Object {
+              "desc": "Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!",
+              "img": "https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png",
+              "title": "CSS Flexbox Layout",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "css-5",
+            "nodeType": "function",
+            "props": Object {
+              "desc": "CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms.",
+              "img": "https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png",
+              "title": "CSS Transitions and Transforms",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "css-6",
+            "nodeType": "function",
+            "props": Object {
+              "desc": "Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time.",
+              "img": "https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png",
+              "title": "Bootstrap 4 Basics",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

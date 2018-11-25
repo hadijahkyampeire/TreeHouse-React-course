@@ -21,7 +21,7 @@ class Home extends Component {
        <form onSubmit={this.handleSubmit}>
        <input type="text" name="name" placeholder="name" ref={ (input) => this.name = input }/>
        <input type="text" name="topic" placeholder="topic" ref={ (input) => this.topic = input }/>
-       <button type="submit" >Go!</button>
+       <button type="submit" id="go">Go!</button>
        </form>
       </div>
     );
